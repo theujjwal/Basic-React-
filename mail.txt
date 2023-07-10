@@ -33,6 +33,6 @@ Best regards,
 [Attached: Analysis Document - ReCaptcha Test Case - Unchanging Score for Sequential Transactions from Same Machine (Selenium Script)]
 
 
-During our manual testing, we aimed to evaluate the behavior of the ReCaptcha system when verified manually by human testers, rather than automated scripts or sequential testing. The purpose was to assess any variations in the ReCaptcha score across multiple manual verification attempts.
-
-Surprisingly, we discovered that regardless of the sequential nature of the tests or the time interval between them, the ReCaptcha score remained consistent across all 30 manual verification attempts. T
+During our manual testing| rex field=_raw "Recaptcha validation score:\s(?<score>\S+)"
+| table _time, score, GB_UNAUTH_APIGateway_SEX_MPG
+| outputcsv export.xlsx
