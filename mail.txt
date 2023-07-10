@@ -1,0 +1,33 @@
+Subject: Analysis of ReCaptcha Test Case - Unchanging Score for Sequential Transactions from Same Machine (Selenium Script)
+
+Dear Sri,
+
+I hope this email finds you well. I would like to share with you the analysis we conducted during our recent testing of the ReCaptcha system using a Selenium script. In one of our test cases, we performed sequential transactions from the same machine and discovered that the ReCaptcha score remained unchanged at 0.9 for each transaction.
+
+Test Details:
+
+Test Case: Sequential transactions from the same machine using Selenium script
+ReCaptcha Score: 0.9 (unchanged for each transaction)
+Time Interval between Transactions: Approximately 0.5 seconds
+Analysis:
+During our testing, we aimed to evaluate the behavior of the ReCaptcha system when performing multiple transactions in quick succession from the same machine using a Selenium script. We were particularly interested in observing any variations in the ReCaptcha score.
+
+Surprisingly, we found that regardless of the sequential nature of the transactions and the short time interval of approximately 0.5 seconds between them, the ReCaptcha score consistently remained at 0.9 for each transaction. This suggests that the ReCaptcha system did not detect any significant anomalies or variations in the transactions originating from the same machine through the Selenium script.
+
+These findings have significant implications, especially when considering scenarios where multiple transactions are executed from the same machine within a short timeframe. The consistent score of 0.9 obtained from the ReCaptcha system indicates that it may not rely solely on transaction frequency or the sequential nature of requests to determine their legitimacy.
+
+In order to gain deeper insights into the behavior of the ReCaptcha system, we intend to conduct further analysis and investigation. Additional test cases and variations will be explored to better understand the factors influencing the ReCaptcha score's stability in situations involving sequential testing from the same machine using Selenium.
+
+I have thoroughly documented these findings and the complete analysis in the attached document. Please take a moment to review the document, which provides a comprehensive overview of the test case and its results.
+
+If you have any questions or require further information, please do not hesitate to reach out. I am eager to discuss these findings with you and explore any potential implications they may have for our systems.
+
+Thank you for your attention to this matter.
+
+Best regards,
+
+[Your Name]
+[Your Position/Role]
+[Your Organization]
+
+[Attached: Analysis Document - ReCaptcha Test Case - Unchanging Score for Sequential Transactions from Same Machine (Selenium Script)]
