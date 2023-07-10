@@ -1,9 +1,13 @@
-Subject: Analysis Report - ReCaptcha Test Cases: Scores in Manual, Sequential, and Parallel Testing
+Subject: Analysis of ReCaptcha Implementation in MyBenefits Application - Testing Results and Query
 
-Dear Sri,
+Dear Anurag,
 
-I would like to bring your attention to an important analysis report we have prepared regarding the ReCaptcha test cases. The report contains the results of our testing efforts, specifically focusing on the scores obtained during manual testing, sequential testing with a script, and parallel testing scenarios.
+I hope this email finds you well. I would like to discuss the findings from our recent testing of the ReCaptcha implementation in the MyBenefits application. We performed three different test cases to evaluate the behavior of the ReCaptcha score received by the Data Power layer. The test cases included manual testing, sequential testing with a script to mimic bot behavior, and parallel testing with multiple script instances. Our objective was to understand the variation in the ReCaptcha score and assess its effectiveness in identifying bot or threat users.
 
-We have conducted a series of test cases to evaluate the behavior of the ReCaptcha system in different testing scenarios. The tests were designed to assess the consistency and accuracy of the ReCaptcha scores across various testing methodologies.
+In the sequential testing scenario, we used a script to simulate bot behavior and performed more than 50 transactions sequentially. Surprisingly, we observed that the ReCaptcha score remained constant throughout the entire testing phase. Despite the sequential nature and the repeated transactions, the score did not exhibit any significant changes.
 
-The detailed analysis, methodology, results, and implications of each test case are thoroughly documented in the attached report.
+During parallel testing, we utilized a similar script to mimic bot behavior, but this time we executed more than 5 instances of the script simultaneously to generate a higher load. Once again, we found that the ReCaptcha score remained constant across all parallel testing instances. This indicates that the ReCaptcha system did not detect any substantial variations or anomalies in the behavior of the parallel test transactions.
+
+In the case of manual testing, we conducted simultaneous transactions from multiple users, surpassing 30 transactions in parallel. However, similar to the previous scenarios, we observed that the ReCaptcha score remained constant throughout the manual testing phase. The score did not display any discernible changes or fluctuations despite the increased transaction volume.
+
+Given these findings, I am curious to know if you have encountered similar results during your testing of ReCaptcha implementations in other applications or projects. Were the ReCaptcha scores also constant in your testing scenarios, or did you observe any variations or changes? Furthermore, I am interested in understanding the approaches or strategies you have employed to effectively test for bot or threat users within the ReCaptcha framework.
