@@ -1,51 +1,14 @@
-Minutes of Meeting
 
-Participants:
+Cyrus Singh is an exceptional candidate with a strong technical background and a solid track record of success in software engineering. His work experience at HighRadius Corporation showcases his ability to handle complex projects and drive impactful solutions.
 
-Suneel Panchala
-Srikanth Sriram
-Tunal Goswami
-[Your Name]
-Date: [Current Date]
-Time: [Current Time]
+As an Associate Software Engineer II, Cyrus demonstrated his expertise in converting monolithic applications to microservices, streamlining processes for better scalability and performance. His work on integrating JMX exporter for custom metrics, enforcing user access restrictions through interceptors, and implementing Auto Scaling Groups (ASG) highlights his proficiency in modern technologies and tools.
 
-Agenda:
+During his tenure as an Associate Software Engineer I, Cyrus displayed his proficiency in Java and Quartz Scheduler while working on projects to run at specific times. His expertise in data encryption and decryption using cryptography and AES algorithm further showcases his technical versatility.
 
-Progress of reCAPTCHA Implementation and Release Planning
-Discussion Points:
+Cyrus also gained valuable experience as a Software Engineer Intern in Data Science, where he successfully developed regression models with high accuracy for payment day prediction.
 
-reCAPTCHA Score Testing Results:
+His educational background, with a Bachelor of Technology in Computer Science and System Engineering from Kalinga Institute of Industrial Technology, further solidifies his foundation in computer science.
 
-[Your Name] presented the results of the reCAPTCHA score testing to Suneel.
-It was observed that the reCAPTCHA score remained constant in the test environment.
-Suneel suggested understanding the actual value of the score generated to set an appropriate threshold for bot detection.
-ER (Engineering & Research) team has conducted a similar test and found variations in reCAPTCHA scores in the production environment.
-Based on this information, it was concluded that we can move forward with the release, as the variations in production are expected.
-Production Release with THAW Vulnerabilities Fix:
+In addition to his technical skills, Cyrus is an avid learner and demonstrates a keen interest in various sports and activities, indicating his ability to thrive in a team-oriented environment.
 
-[Your Name] reported that the application team has fixed the THAW vulnerabilities, and the application is ready for production release.
-The scheduled release for the fixed application is in August.
-Data Power Team Requirements:
-
-The Data Power team requires QA sign-off before proceeding with the production deployment.
-They also requested a 5-7 days advance notice before the planned date of production deployment.
-UAT Sign-off and Regression Testing:
-
-It was confirmed that UAT (User Acceptance Testing) sign-off is required before moving to production.
-Additionally, regression testing will be performed to ensure the stability and integrity of the application.
-No specific performance testing is required for this release.
-Action Items:
-
-[Your Name]: Provide the actual value of the reCAPTCHA score generated during testing to set the threshold.
-Application Team: Continue preparing for the release scheduled for August, ensuring the THAW vulnerabilities are fixed.
-Data Power Team: Coordinate with the QA team to obtain sign-off and ensure 5-7 days advance notice before production deployment.
-QA Team: Perform UAT sign-off and conduct regression testing to prepare for production release.
-Next Meeting: [Specify the date and time of the next meeting, if applicable.]
-
-Meeting Conclusion:
-
-The meeting concluded with an agreement to move forward with the production release, considering the variations in reCAPTCHA scores in the production environment. All participants will collaborate to meet the requirements for a successful deployment.
-
-[Your Name]
-[Your Designation/Title]
-[Your Contact Information]
+Overall, Cyrus Singh's combination of technical expertise, problem-solving abilities, and passion 
